@@ -1,0 +1,116 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #f0f4f8;
+    }
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 48px;
+      background-color: #fff;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      height: 60px;
+    }
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #444;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a:hover {
+      color: #1a73e8;
+    }
+
+    .username {
+      background-color: #e8f0fe;
+      color: #1a73e8;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 80px;
+      height: calc(100vh - 60px);
+      background-color: #f0f4f8;
+    }
+
+    .hero-left {
+      flex: 1;
+      max-width: 480px;
+    }
+
+    .hero-left h1 {
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: #1a1a2e;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .hero-left h1 span {
+      color: #1a73e8;
+    }
+
+    .hero-left p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-top: 16px;
+      line-height: 1.6;
+      max-width: 380px;
+    }
+
+    .hero-left button {
+      margin-top: 32px;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .hero-left button:hover {
+      background-color: #1558b0;
+    }
+
+    .hero-right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-right img {
+      max-height: 60vh;
+      max-width: 100%;
+      object-fit: contain;
+    }
