@@ -1,6 +1,6 @@
 const greet = () => {
   let input = document.querySelector('input').value;
-  let heading = document.querySelector('h1').innerText = `Hello ${input}`;
+  let heading = document.querySelector('h1').innerText = `Hello,${input}`;
 };
 
 let boxes = document.querySelectorAll('.boxes'); // ← also missing the dot
